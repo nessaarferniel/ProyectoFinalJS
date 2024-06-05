@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon-empanada.png">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/pedido.css">
+    <title>Empanadas Online</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div id="contenedor-logo">
+                <a href="./index.html">
+                    <img src="./img/logo.png" alt="logo en forma de empanada">
+                    <p>¡Empanadas Online!</p>
+                </a>
+            </div>
+            <nav id="nav">
+                <ul id="nav-secciones">
+                    <li>
+                        <a href="#menu-empanadas">Empanadas</a>
+                    </li>
+                </ul>
+                <button id="boton-iniciar">
+                    <a href="#contenedor-pedido">Iniciar pedido</a>
+                </button>
+            </nav>
+        </header>
+        <section id="nosotros">
+            <h1>¡Bienvenido a Empanadas Online!</h1>
+            <p>
+                Hacemos las mejores empanadas desde 2009. Desde entonces, nos hemos dedicado a la fabricación y comercialización de uno de los productos más consumidos en la gastronomía argentina. Nuestras empanadas se caracterizan por ser elaboradas con la más moderna tecnología en instalaciones propias de la empresa y selección de materias primas de primera calidad, teniendo como resultado un producto distinguido por su exquisito sabor.
+            </p>
+            <div id="imagen">
+                <img src="./img/empanadas.png" alt="imagen de una cinco empanadas">
+            </div>
+        </section>
+        <section id="menu-empanadas">
+            <h2>Empanadas clásicas</h2>
+            <div id="menu-contenedor">
+
+            </div>
+        </section>
+
+        <div class="menu">
+            <div id="contenedor-modal" class="contenedor-modal">
+                <div id="modal" class="modal">
+                    <div class="modal-encabezado">
+                        <h3 class="modal-titulo">Tu pedido:</h3>
+                        <button id="modal-cerrar" class="modal-cerrar">X</button>
+                    </div>
+                    <hr>
+                    <div id="carrito">
+                        <div id="sabores-elegidos">
+    
+                        </div>
+                        <div id="cantidades-elegidas">
+    
+                        </div>
+                    </div>
+                    <div id="modal-botones" class="modal-botones">
+                        <button id="vaciar-pedido" class="vaciar-pedido">Vaciar carrito</button>
+                        <button id="procesar-pedido" class="procesar-pedido">Ir a pagar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="contenedor-pedido" class="contenedor-pedido">
+                <section id="opciones" class="opciones">
+                    
+                </section>
+            </div>
+            <div>
+                <button id="modal-abrir" class="modal-abrir">Ver carrito</button>
+            </div>
+            <div id="contenedor-pago">
+                <section id="finalizar">
+                    
+                </section>
+            </div>
+        <footer>
+            <div id="contenedor-home">
+                <a href="./index.html">
+                    <img class="icono-footer" src="./img/empanada-white.png" alt="icono blanco de una empanada">
+                </a>
+            </div>
+            <div id="contenedor-copyright">
+                <a href="https://gitlab.com/matias-ac" target="_blank">
+                    <img class="redes-sociales" src="./img/gitlab.png" alt="icono gitlab">
+                </a>
+            </div>
+            <div id="contenedor-redes">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img class="redes-sociales" src="./img/facebook.png" alt="icono de facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img class="redes-sociales" src="./img/instagram.png" alt="icono de instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank">
+                            <img class="redes-sociales" src="./img/twitter.png" alt="icono de twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="./app.js" type="module"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./scripts/pedido.js"></script>
+</body>
+</html>
+
